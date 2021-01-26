@@ -1,0 +1,19 @@
+@value mainColor from "../../common/styles.css";
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5rem;
+}
+.list {
+  padding: 0 2rem;
+}
+.link {
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: mainColor;
+  font-weight: 400;
+}
+.active {
+  font-weight: 800;
+}

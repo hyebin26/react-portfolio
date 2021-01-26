@@ -1,0 +1,12 @@
+@value mainColor from "../../common/styles.css";
+
+.btn {
+  outline: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background-color: mainColor;
+  border: none;
+}
