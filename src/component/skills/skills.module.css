@@ -1,0 +1,45 @@
+@value first_maxWidth,mainColor from "../../common/styles.css";
+
+.container {
+  display: flex;
+  max-width: first_maxWidth;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.graphContainer {
+  flex: 1 1 40%;
+}
+.graphContainer p {
+  color: mainColor;
+}
+.iconsContainer {
+  flex: 1 1 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.iconsContainer li {
+  flex: 1 1 25%;
+  padding: 2rem;
+}
+.iconsContainer img {
+  width: 4rem;
+  height: 5rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.iconsContainer img:hover {
+  transform: scale(1.2);
+}
+.progress {
+  background-color: #e9ecef;
+  width: 100%;
+  height: 4px;
+  border-radius: 0.25rem;
+}
+.progressBar {
+  border-radius: 0.25rem;
+  background-color: black;
+  height: 4px;
+}
