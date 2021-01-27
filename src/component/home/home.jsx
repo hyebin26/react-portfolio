@@ -9,14 +9,14 @@ import Btn from "../btn/btn";
 const Home = (props) => (
   <section className={styles.container}>
     <div className={styles.textContainer}>
-      <h3>Hello !</h3>
-      <h1>I'm Hyebin</h1>
+      <h3>안녕하세요 !</h3>
+      <h1>개발자 황혜빈입니다.</h1>
       <h4>
-        I'm a <strong>front-end Developer</strong>
+        저는 <strong>프론트엔드</strong> 개발자 입니다.
       </h4>
       <p>
-        I specialize in developing and deploying responsive websites and web
-        applications
+        반응형 웹사이트, 웹 애플리케이션을 개발하고 배포하며 사용자 중심정으로
+        생각하고 더 좋은 앱을 만들기 위해 노력하고 있습니다.
       </p>
       <ul className={styles.iconsContainer}>
         <li className={styles.iconList}>
