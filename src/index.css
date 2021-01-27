@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR:wght@300&display=swap");
+
 * {
   margin: 0;
   border: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Do Hyeon", sans-serif;
 }
 li {
   list-style: none;

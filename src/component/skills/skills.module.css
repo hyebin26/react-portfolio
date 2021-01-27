@@ -4,24 +4,26 @@
   display: flex;
   max-width: first_maxWidth;
   margin: 0 auto;
-  align-items: center;
   padding-top: 3rem;
 }
 
 .graphContainer {
   flex: 1 1 40%;
+  padding-left: 2rem;
 }
 .graphContainer p {
   color: mainColor;
+  padding: 1rem 0;
 }
 .iconsContainer {
   flex: 1 1 60%;
   display: flex;
   flex-wrap: wrap;
+  padding: 1rem 2rem;
 }
 .iconsContainer li {
   flex: 1 1 25%;
-  padding: 2rem;
+  padding-bottom: 2rem;
 }
 .iconsContainer img {
   width: 4rem;

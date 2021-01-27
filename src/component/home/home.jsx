@@ -9,9 +9,11 @@ import Btn from "../btn/btn";
 const Home = (props) => (
   <section className={styles.container}>
     <div className={styles.textContainer}>
-      <h3>Hello</h3>
+      <h3>Hello !</h3>
       <h1>I'm Hyebin</h1>
-      <h3>I'm a front-end Developer</h3>
+      <h4>
+        I'm a <strong>front-end Developer</strong>
+      </h4>
       <p>
         I specialize in developing and deploying responsive websites and web
         applications

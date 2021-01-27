@@ -5,31 +5,38 @@
   max-width: first_maxWidth;
   margin: 0 auto;
   align-items: center;
+  padding-top: 5rem;
 }
 .imageContainer {
   flex: 1 1 50%;
+  padding: 0 1rem;
 }
 .textContainer {
-  flex: 1 1 20%;
+  flex: 1 1 50%;
+  padding: 0 1rem;
 }
 img {
   width: 100%;
-  height: 30rem;
+  height: 25rem;
 }
-h3 {
+.textContainer h3 {
   color: textColor;
-  font-weight: 600;
-  font-size: 1.8rem;
+  font-weight: 800;
+  font-size: 1.5rem;
 }
-h1 {
+.textContainer h1 {
   color: mainColor;
   font-weight: 700;
   font-size: 2rem;
 }
-p {
+.textContainer p {
   color: textColor;
   padding: 1rem 0;
   font-size: 1.1rem;
+}
+.textContainer h4 {
+  color: textColor;
+  font-size: 1.8rem;
 }
 .iconsContainer {
   display: flex;
@@ -42,4 +49,7 @@ p {
 }
 .iconList a {
   color: mainColor;
+}
+strong {
+  font-weight: 800;
 }

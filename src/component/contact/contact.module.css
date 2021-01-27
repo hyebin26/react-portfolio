@@ -1,0 +1,47 @@
+@value mainColor,first_maxWidth,textColor from "../../common/styles.css";
+
+.container {
+  display: flex;
+  align-items: center;
+  max-width: first_maxWidth;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+.imageContainer {
+  flex: 1 1 50%;
+}
+.textContainer {
+  flex: 1 1 50%;
+}
+.textContainer p {
+  color: textColor;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+}
+
+.textContainer h2 {
+  color: mainColor;
+  padding-bottom: 1rem;
+}
+
+.textContainer h3 {
+  font-size: 1.3rem;
+  color: textColor;
+  font-weight: 700;
+}
+
+.iconsContainer {
+  padding: 0;
+  padding: 1rem 0;
+}
+.iconsContainer a {
+  text-decoration: underline;
+  color: gray;
+}
+.iconsContainer svg {
+  color: black;
+  margin-right: 0.1rem;
+}
+.iconsContainer li {
+  padding: 0.2rem 0;
+}
