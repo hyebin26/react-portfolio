@@ -3,6 +3,7 @@
 .container {
   display: flex;
   justify-content: center;
+  padding: 0 1rem;
   padding-top: 1.5rem;
 }
 .list {
@@ -15,3 +16,11 @@
   font-weight: 400;
 }
 
+@media (max-width: 426px) {
+  .list {
+    padding: 0 1rem;
+  }
+  .link {
+    font-size: 0.9rem;
+  }
+}
