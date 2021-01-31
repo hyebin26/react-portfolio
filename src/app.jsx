@@ -8,7 +8,7 @@ import Contact from "./component/contact/contact";
 
 function App() {
   return (
-    <BrowserRouter basename="/react-portfolio">
+    <BrowserRouter basename="https://hyebin26.github.io/react-portfolio">
       <Nav />
       <Switch>
         <Route exact path="/">
