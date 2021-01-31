@@ -8,7 +8,7 @@ import Contact from "./component/contact/contact";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-portfolio">
       <Nav />
       <Switch>
         <Route exact path="/">

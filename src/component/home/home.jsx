@@ -33,7 +33,10 @@ const Home = (props) => (
       <Btn value="Contact Me" className={styles.btn} />
     </div>
     <div class={styles.imageContainer}>
-      <img src="./image/1.jpg" alt="programmer" />
+      <img
+        src="https://hyebin26.github.io/react-portfolio/image/1.jpg"
+        alt="programmer"
+      />
     </div>
   </section>
 );
