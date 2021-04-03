@@ -16,8 +16,8 @@ const Projects = (props) => (
             템플릿을 참고해서 만든 클론코딩 홈페이지입니다. Scss,바닐라
             자바스크립트,HTMl을 사용했습니다. 구현한 페이지는
             HOME,PROPERTY,PAGES 이며 바닐라 자바스크립트로 이미지 슬라이더,
-            비디오 팝업, 햄버거 내비게이션, 썸네일 이미지, 지도 등을
-            구현하였습니다.
+            비디오 팝업, 햄버거 내비게이션, 썸네일 이미지 등을 구현하였습니다.
+            PROPERTY에 Google Maps API를 사용해서 지도를 가져왔습니다.
           </p>
           <div>
             <span>Link: </span>
@@ -44,23 +44,32 @@ const Projects = (props) => (
           <p>
             취미가 영화감상과 독서라서 기록을 남기기 위해 만든 페이지 입니다.
             NodeJs, Express, Mysql, 바닐라 자바스크립트를 이용해서 만들었습니다.
-            작성한 글, 댓글을 Mysql로 저장하여 관리하고 검색 기능을
-            구현했습니다. 또한 바닐라 자바스크립트로 동적으로 페이지가 추가되는
-            페이지 네이션, 간단한 회원가입,로그인,데이터베이스로 부터 데이터를
-            받기 등을 구현했습니다. 또한 Cloudynary Api를 통해 이미지를
-            업로드하는 기능 또한 추가하였습니다. 마지막으로 웹팩을 이용해 모듈을
-            번들링하고 heroku를 이용해 배포하였습니다.
+            작성한 글, 댓글을 Mysql로 저장하여 관리하고 검색 부분은 검색을 하면
+            서버로 검색 내용을 전달하고 전달받은 내용 중 DB에 있는 제목, 내용과
+            일치하는 내용이 있으면 가져오는 것으로 구현했습니다. 또한 게시글이
+            점점 많아지면 페이지가 자동적으로 추가되는 페이지네이션을
+            추가했습니다. 그리고 회원과 로그인 또한 DB를 통해 관리합니다. 또한
+            Cloudynary API를 통해 이미지를 업로드하는 기능또한 추가했습니다.
+            서버는 Express를 사용해서 heroku에 배포하였고 어플리케이션 또한
+            js파일을 웹팩을 이용해 번들링 한 후 heroku에 배포하였습니다.
           </p>
+          <span>*앱이 작동하지 않을 시 새로고침을 눌러주세요!</span>
           <div>
             <span>Link: </span>
-            <a href="https://dashboard.heroku.com/apps/js-review">
-              https://js-review.herokuapp.com/
+            <a href="https://review-vanillajs.herokuapp.com/">
+              https://review-vanillajs.herokuapp.com/
             </a>
           </div>
           <div>
             <span>Source code: </span>
-            <a href="https://dashboard.heroku.com/apps/js-review">
-              https://dashboard.heroku.com/apps/js-review
+            <a href="https://github.com/hyebin26/vanillaJs_review">
+              https://github.com/hyebin26/vanillaJs_review
+            </a>
+          </div>
+          <div>
+            <span>Server Source code: </span>
+            <a href="https://github.com/hyebin-Hwang/server_reviewJS">
+              https://github.com/hyebin-Hwang/server_reviewJS
             </a>
           </div>
         </div>
