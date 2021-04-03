@@ -76,19 +76,32 @@ const Projects = (props) => (
       </li>
       <li className={styles.list}>
         <div className={styles.imgContainer}>
-          <a href="#">
-            <img src="" alt="" />
+          <a href="https://hyebin26.github.io/react-dietCalendar/">
+            <img src="./image/calendar.png" alt="diet calendar" />
           </a>
         </div>
         <div className={styles.textContainer}>
-          <h2>Hello</h2>
+          <h2>Diet Calendar</h2>
+          <p>
+            이 앱을 만든 이유는 자신의 키와 몸무게에 따른 적절한 칼로리의 목표를
+            정하고 그 목표에 따른 결과를 기록하고 싶어서 만들었습니다. 날마다
+            칼로리를 기록할 수 있으며, 목표의 칼로리보다 더 많이 먹으면 글씨를
+            빨간색으로 표시하게 했습니다. 그리고 Login은 firebase API를 이용해
+            구현하였으며 로그인을 할 시 입장 토큰을 저장하고 그 토큰을 이용해
+            DB에서 전에 입력한 정보를 가져옵니다. 또한 Database는 firebase를
+            통해 구현하였습니다.
+          </p>
           <div>
             <span>Link: </span>
-            <a href="#">naver.com</a>
+            <a href="https://hyebin26.github.io/react-dietCalendar/">
+              https://hyebin26.github.io/react-dietCalendar/
+            </a>
           </div>
           <div>
             <span>Source code: </span>
-            <a href="#"></a>
+            <a href="https://github.com/hyebin26/react-dietCalendar">
+              https://github.com/hyebin26/react-dietCalendar
+            </a>
           </div>
         </div>
       </li>
